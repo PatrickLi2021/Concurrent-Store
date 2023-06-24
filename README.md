@@ -22,8 +22,8 @@ This program implements multiple synchronized data structures for a multithreade
 - `shardmaster/`: Contains the definition of the `Shardmaster` class, and support code to process persistent connections
 
 ## Key Features:
-- Synchronized Queue: The synchronized allows multiple threads to add and remove elements safely, and wait for new elements to arrive. It is also useful to distribute requests from different clients across multiple threads.
-- Concurrent, mutlithreaded bucket-based KV store: Provides safe and concurrent access to key-value pairs through the use of fine-grained locking (via a readers-writer lock) to prevent deadlock. This reduces lock contention by splitting the data structure or code into smaller, potentially disjoint pieces that each have thei rown lock. Thus, multiple threads can then operate on separate pieces in parallel.
+**- Synchronized Queue:** The synchronized allows multiple threads to add and remove elements safely, and wait for new elements to arrive. It is also useful to distribute requests from different clients across multiple threads.
+**- Concurrent, mutlithreaded bucket-based KV store:** Provides safe and concurrent access to key-value pairs through the use of fine-grained locking (via a readers-writer lock) to prevent deadlock. This reduces lock contention by splitting the data structure or code into smaller, potentially disjoint pieces that each have thei rown lock. Thus, multiple threads can then operate on separate pieces in parallel.
 
 ## Code:
 Available upon request (patrick_li@brown.edu or patrickli2021@gmail.com)
