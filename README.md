@@ -1,8 +1,5 @@
 # Concurrent Store
 
-## Code:
-Available upon request (patrick_li@brown.edu or patrickli2021@gmail.com)
-
 ## Introduction and Motivation:
 A key-value store is a storage system in which data (a value) is addressed by a key; common examples are Python's dictionaries or Java/C++ hash maps. Unlike file systems or other structures where objects are arranged in a hierarchical directory structure, keys map directly to their values. Key-value stores are popular for large-scale web applications because they are particularly amenable to performance and scalability optimizations, such as concurrent access/modification and sharding. Such optimizations are paramount to the success of Internet-scale applications like Facebook, AirBnB, and Twitter, which must handle thousands of connection requests and petabytes of data every day.
 
